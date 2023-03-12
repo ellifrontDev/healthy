@@ -1,6 +1,17 @@
 import React from "react";
 import img1 from "../img/bg elements.png"
 import img2 from "../img/header Image.png"
+import Us from "./Us";
+import About from "./About";
+import Fresh from "./Fresh";
+import Cook from "./Cook";
+import Dish from "./Dish";
+import Happy from "./Happy";
+import New from "./New";
+import Finish from "./Finish";
+import Trust from "./Trust";
+import Bring from "./Bring";
+
 
 const Hero = () => {
 
@@ -20,10 +31,16 @@ const Hero = () => {
                             <img src={img2} className="img2" alt=""/>
                         </div>
                     </div>
-
                     </div>
-
             </div>
+            <Us/>
+            <About/>
+            <Fresh/>
+            <Cook/>
+            <Dish/>
+            <Happy/>
+            <New/>
+
 
         </div>
     )
