@@ -13,9 +13,7 @@ import Finish from "./components/Finish";
 import React, {useState} from "react";
 import {Routes,Route} from "react-router-dom";
 import Test from "./components/Test";
-import Trust from "./components/Trust";
-import Bring from "./components/Bring";
-import Push from "./components/Push";
+
 
 function App() {
     const [light, setLight] = useState(false)
